@@ -14,3 +14,5 @@
 # To do:
 1. creat a HTML webpage like [this](http://attractivechaos.github.io/plb/)
 2. add everything to the [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code)
+3. include compile time
+4. plot for different scales
