@@ -6,9 +6,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-double fibR(int n);
+long long int fibR(int n);
 long long int fibI(int n);
-// double fibI(int n);
 
 int main(int argc, char* argv[])
 {
@@ -45,13 +44,15 @@ int main(int argc, char* argv[])
 
 }
 
-double fibR(int n){
+// recursive method
+long long int fibR(int n){
   if(n<=2)
-    return(1.0);
+    return(1);
   else
     return(fibR(n-2)+fibR(n-1));
 }
 
+// Iterative method
 // https://rosettacode.org/wiki/Fibonacci_sequence
 long long int fibI(int n) {
      int fnow = 0, fnext = 1, tempf;
